@@ -1,0 +1,42 @@
+{
+  "activities": [
+    {
+      "_id": 4121,
+      "_description": "Go to college",
+      "_deadline": "07/02/2023",
+      "_priority": {
+        "id": "2",
+        "name": "normal"
+      },
+      "_isCompleted": false
+    },
+    {
+      "_id": 2370,
+      "_description": "Create a figma project",
+      "_deadline": "10/02/2023",
+      "_priority": {
+        "id": "2",
+        "name": "normal"
+      },
+      "_isCompleted": false
+    }
+  ],
+  "prioritys": [
+    {
+      "id": 1,
+      "name": "baixa"
+    },
+    {
+      "id": 2,
+      "name": "normal"
+    },
+    {
+      "id": 3,
+      "name": "alta"
+    },
+    {
+      "id": 4,
+      "name": "altíssima"
+    }
+  ]
+}
