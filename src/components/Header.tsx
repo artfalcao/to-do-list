@@ -17,40 +17,39 @@ const StyledNavbar = styled.nav`
     width: 95%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 `;
 
 const Logo = styled.span`
-    margin-left: 2em;
-    color: #fff;
+    width: 8em;
+    height: 2.5em;
     font-weight:bold;
-    font-size:.5em;
-    width: 3.5rem;
-    height: 1rem;
+    font-size: 1.8em;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-`;
-
-const LinksList = styled.ul`
-    width: 10em;
-    height: 1rem;
+    color: #fff;
+    margin-left: 2em;
     display: flex;
     align-items: center;
     justify-content: space-around;
 
-    li {
-        height: 100%;
-        display: flex;
-        align-items: center;
+    svg {
+        font-size: 1.5em;
     }
+`;
+
+const LinksList = styled.ul`
+    width: 40em;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
     a {
+        font-size: 1em;
         padding: 2em;
-        font-weight: 500;
+        font-weight: 600;
         color: #fff;
-        font-size: .1em;
     }
 
     a:hover {
@@ -65,7 +64,7 @@ function Header() {
             <StyledNavbar>
                 <Link to='/'>
                     <Logo>
-                        <GoTasklist size={12}/>
+                        <GoTasklist/>
                         toDo-List
                     </Logo>
                 </Link>

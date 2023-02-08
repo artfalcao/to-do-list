@@ -6,19 +6,19 @@ import { inputProps } from '../types/inputProps';
 const InputContainer = styled.div`
     display: flex;
     flex-direction: column;
-    margin: .5em 0;
+    margin: 1em .5em;
 
     label {
         margin-bottom: .6em;
         font-weight: bold;
-        font-size: .2em;
+        font-size: 1.1em;
     }
 
     input {
         padding: .5em;
         border-radius: 0;
         border: .8px solid #272424;
-        font-size: .3em;
+        font-size: 1em;
     }
 
     input::placeholder {

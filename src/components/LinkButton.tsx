@@ -5,11 +5,13 @@ import styled from 'styled-components';
 
 const StyledButton = styled.button`
     width: 10em;
-    height: 2.5em;
-    font-size: .5em;
+    height: 7em;
+    padding: .5em;
+    font-size: 1.5em;
+    font-weight: 500;
     background-color: #2727ff;
     color: #fff;
-    margin: .5em;
+    margin: 1em;
     transition: 0.3s;
     border: none;
 
@@ -29,7 +31,7 @@ const StyledButton = styled.button`
     :hover{
         cursor: pointer;
         background-color: white;
-        border: 1px solid #2727ff;
+        border: 2px solid #2727ff;
         color: #2727ff;
     }
 `;

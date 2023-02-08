@@ -6,19 +6,19 @@ import { selectProps } from '../types/selectProps';
 const SelectContainer = styled.div`
     display: flex;
     flex-direction: column;
-    margin-bottom: 1em;
+    margin: 1em .5em;
 
     label {
         margin-bottom: .6em;
         font-weight: bold;
-        font-size: .2em;
+        font-size: 1.1em;
     }
 
     select {
         padding: .7em;
         border-radius: 0;
         border: none;
-        font-size: .3em;
+        font-size: 1em;
     }
 
     option {

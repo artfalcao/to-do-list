@@ -10,10 +10,14 @@ import { Options } from "../types/selectProps";
 import Activity from "../entities/Activity";
 
 export const ActivityForm = styled.form`
-    width: 200px;
+    width: 450px;
+    height: 400px;
     margin: 1em auto;
     border: 1px solid #272424;
     padding: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 `;
 
 
@@ -76,10 +80,9 @@ function NewActivity() {
             />
 
             <Input 
-                type='text'
+                type='date'
                 text='Deadline'
                 name='deadline'
-                placeholder="DD/MM/YYYY"
                 handleOnChange={(e) => setDeadline(e.target.value)}
                 value={deadline} 
             />

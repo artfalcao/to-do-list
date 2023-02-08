@@ -2,10 +2,15 @@ import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import styled from 'styled-components';
 
 const StyledFooter = styled.footer`
+    height: 9em;
     background-color: #2727ff;
     color: #fff;
     padding: 1em;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 
     .social_list {
         display: flex;
@@ -14,12 +19,11 @@ const StyledFooter = styled.footer`
     }
 
     .social_list li {
-        margin: 0 0.5em;
+        margin: 0 1em;
     }
 
     .social_list svg {
-        font-size: .8em;
-        padding: 0.15em;
+        font-size: 2em;
         cursor: pointer;
     }
 
@@ -28,12 +32,13 @@ const StyledFooter = styled.footer`
     }
 
     .copy_right {
-        font-size: .1em;
+        margin-top: 1em;
+        font-size: 1em;
         color: #000;
     }
 
     .copy_right span {
-        font-size: .5em;
+        font-size: 1em;
         font-weight: bold;
         color: #fff;
     }
