@@ -72,9 +72,9 @@ function NewActivity() {
         <ActivityForm>
              <Input 
                 type='text'
-                text='Description of the Activity'
+                text='Description'
                 name='description'
-                placeholder='Insert here the description of the activity'
+                placeholder='Description of the activity'
                 handleOnChange={(e) => setDescription(e.target.value)}
                 value={description}
             />

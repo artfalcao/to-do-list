@@ -7,30 +7,32 @@ import { BsPencil, BsFillTrashFill } from 'react-icons/bs';
 const StyledCard = styled.div`
     padding: 0.2em;
     border: 1px solid #7a7a7a;
-    width: 150px;
-    margin: 0.5%;
-    font-size: .5em;
+    width: 40%;
+    height: 200px;
+    margin: 1em;
+    font-size: 2em;
     color: black;
     display: flex;
     flex-direction: column;
     gap: .2em;
 
-
     p {
     color: #424141;
     margin-bottom: .5em;
-    font-size: .2em;
+    font-size: .5em;
     }
 
     p span {
     font-weight: bold;
-    font-size: .3em;
+    font-size: 1em;
     }
 
     .priority {
-        font-size: .3em;
+        font-size: .5em;
         padding: .5em;
-        margin-top: 3px;
+        margin-top: 5px;
+        position: relative;
+        bottom: 2px;
     }
 
     .priority1 {
@@ -42,7 +44,7 @@ const StyledCard = styled.div`
         }
 
         .priority3 {
-            background-color: #fa924d;
+            background-color: #fc7d28;
         }
 
         .priority4 {

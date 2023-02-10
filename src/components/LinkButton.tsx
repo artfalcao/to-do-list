@@ -4,14 +4,13 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 
 const StyledButton = styled.button`
-    width: 10em;
-    height: 7em;
+    width: 8em;
+    height: 2em;
     padding: .5em;
     font-size: 1.5em;
     font-weight: 500;
     background-color: #2727ff;
     color: #fff;
-    margin: 1em;
     transition: 0.3s;
     border: none;
 

@@ -11,7 +11,6 @@ const ActivitiesContainer = styled.div`
 `;
 
 const StyledContainer = styled.div`
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -35,10 +34,11 @@ const TitleContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: .5em;
+    margin-bottom: 2em;
+    margin-top: 1em;
 
     h1 {
-        font-size: .8em;
+        font-size: 2em;
     }
 `;
 
