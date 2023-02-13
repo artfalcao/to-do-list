@@ -1,15 +1,15 @@
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // Pages
-import Home from './routes/Home';
-import NewActivity from './routes/NewActivity';
-import Activities from './routes/Activities';
-import ActivityPage from './routes/ActivityPage';
+import Home from "./routes/Home";
+import NewActivity from "./routes/NewActivity";
+import Activities from "./routes/Activities";
+import ActivityPage from "./routes/ActivityPage";
 
 // Components
-import Header from './components/Header';
-import Wrapper from './components/Wrapper';
-import Footer from './components/Footer';
+import Header from "./components/Header";
+import Wrapper from "./components/Wrapper";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,21 +17,18 @@ function App() {
       <Header />
 
       <Wrapper>
-
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path="/" element={<Home />} />
 
-          <Route path='/newactivity' element={<NewActivity />} />
+          <Route path="/newactivity" element={<NewActivity />} />
 
-          <Route path='/activities' element={<Activities />} />
+          <Route path="/activities" element={<Activities />} />
 
-          <Route path='/activities/:id' element={<ActivityPage />} />
-
+          <Route path="/activities/:id" element={<ActivityPage />} />
         </Routes>
-        </Wrapper>
+      </Wrapper>
 
-        <Footer />
-
+      <Footer />
     </Router>
   );
 }
